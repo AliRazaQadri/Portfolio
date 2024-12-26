@@ -1,0 +1,51 @@
+/* Muhammad Ali (WMA-344578) */
+.date {
+    background-color: #D4D4D4;
+}
+.blankw {
+    background-color: white;
+}
+.org {
+    background-color: #F8E190;
+
+}
+.email {
+    background-color: #D0D8E0;
+}
+.design {
+    background-color: #BAF3E7;
+}
+.meeting {
+    background-color: #6ACBC7;
+}
+.editing {
+    background-color: #F4E7AC ;
+}
+.lunch {
+    background-color: #E8ECF1 ;
+}
+.research {
+    background-color: #99EEE7;
+}
+body {
+     text-align: center;
+}
+.present {
+    background-color: #F3C613;
+}
+.review {
+    background-color: #CBC9C9 ;
+}
+.appoint {
+    background-color: #FAFFD2;
+}
+.time {
+    background-color: #F9E38C;
+}
+.blank {
+    background-color: #F0F0F0;
+}
+h2 {
+    text-align: left;
+    color: #3469B1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
