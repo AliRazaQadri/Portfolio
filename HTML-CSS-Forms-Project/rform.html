@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./rform.css">
+</head>
+<body>
+    <!-- <h1>Muhammad Ali (WMA-344578)</h1> -->
+    <div><a href="./forms.html"><img src="./previous.png" width="60px"></a></div>
+    <div class="image1"><img src="./logo.png" alt="" width="200px" height="200px"></div>
+    <div>
+        <h2>STUDENT REGISTRATION FORM</h2>
+        <form action="" class="registration-form">
+                <div class="form-group">
+                <label for="FIRST NAME">FIRST NAME</label>
+                <input type="text" name="fname" pattern="[A-Za-z]+"maxlength="30" placeholder="Enter the First Name">
+                (max 30 characters a-z and A-Z) 
+                </div>
+                 
+                <div class="form-group">
+                <label for="LAST NAME">LAST NAME</label>
+                <input type="text" name="lname" pattern="[A-Za-z]+" maxlength="30"placeholder="Enter the Last Name">
+                (max 30 characters a-z and A-Z)
+                </div>
+                
+                <div class="form-group">
+                <label for="DATE OF BIRTH">DATE OF BIRTH</label> 
+                <input type="date" name="dob">
+                </div>
+                
+                <div class="form-group">
+                <label for="EMAIL ID">EMAIL ID </label>
+                <input type="email" name="email" placeholder="Enter the Email Address" >
+                </div>
+                
+                <div class="form-group">
+                <label for="MOBILE NUMBER">MOBILE <br>NUMBER </label>
+                <input type="number"  name="mobile" maxlength="10" placeholder="Enter the Mobile Number">
+                (10 Digits Numbers)
+                </div>
+                
+                <div class="form-group">
+                <label for="GENDER">GENDER </label>
+                Male<input type="radio" name="gender" value="male" /> 
+                Female<input type="radio" name="gender" value="Female" />
+                </div>
+                
+                <div class="form-group">
+                <label for="ADDRESS">ADDRESS </label>
+                <textarea name="address" id="" rows="5"
+                ></textarea>
+                </div>
+                
+                <div class="form-group">
+                <label for="CITY">CITY </label>
+                <input type="text" placeholder="Enter the City Name" name="city"pattern="[A-Za-z]+" maxlength="30">
+                (max 30 characters a-z and A-Z)
+                </div>
+                
+                <div class="form-group">
+                <label for="PIN CODE">PIN CODE </label>
+                <input type="number" name="pin" maxlength="6" placeholder="Enter the Pin Code">
+                (6 Digits Numbers)
+                </div>
+                
+                <div class="form-group">
+                <label for="text">STATE </label>
+                <input type="text" name="state" pattern="[A-Za-z]" maxlength="30" placeholder="Enter the State">
+                (max 30 characters a-z and A-Z)
+                </div>
+                
+                <div class="form-group">
+                <label for="COUNTRY">COUNTRY </label>
+                <input type="text" name="cname" placeholder="Enter the Country Name">
+                </div>
+                
+                <div class="form-group">
+                <label for="HOBBIES">HOBBIES </label>
+                Drawing<input type="checkbox" name="drawing"
+                value="drawing" />
+                Singing<input type="checkbox" name="Singing"
+                value="Singing" /> 
+                Dancing<input type="checkbox" name="Dancing"
+                value="Dancing" /> 
+                Sketching<input type="checkbox" name="Sketching"
+                value="Sketching" /> 
+                Others<input type="checkbox" name="Others"
+                value="Others" /> <input type="text" name="othob">
+                </div>
+                
+                <div class="form-group">
+                <label for="QUALIFICATION">QUALIFICATION</label>
+                <table>
+                    <tr>
+                        <th>SI. No.</tH>
+                        <th>Examination</tH>
+                        <th>Board</th>   
+                        <th>Percentage</th> 
+                        <th>Year of passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" name="cxb" maxlength="10"></td>
+                        <td><input type="text" name="cxp" maxlength="10"></td>
+                        <td><input type="text" name="cxy" ></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" name="cx2b" maxlength="10"></td>
+                        <td><input type="text" name="cx2p" maxlength="10"></td>
+                        <td><input type="text" name="cx2y" ></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" name="gb" maxlength="10"></td>
+                        <td><input type="text" name="gp" maxlength="10"></td>
+                        <td><input type="text" name="gy" ></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Master</td>
+                        <td><input type="text" name="mb" maxlength="10"></td>
+                        <td><input type="text" name="mp" maxlength="10"></td>
+                        <td><input type="text" name="my" ></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>(10 char max)</td>
+                        <td>upto 2 decimal</td>
+                        <td></td>
+                    </tr>
+                </table>
+                </div>
+                
+                <div class="form-group">
+                <label for="COURSES APPLIED FOR">COURSES <br> APPLIED FOR </label>
+                <select name="couses" id="">
+                    <option value="Select any course">Select any course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BCA">B.A</option>
+                    <option value="b.Sc">B.Sc</option>
+                    <option value="B.com">B.Com</option>
+                </select>
+                </div>
+                
+                <div class="form-group">
+                <label for="Upload your pic">Upload your pic <br> (only .png.jpg.jepg <br> formats allow)</label>
+                <input type="file" name="imgfile" accept=".png .jpg .jepg">
+                </div>
+                
+                <div class=button-group>
+                <input type="submit">
+                <input type="reset">
+                </div>
+        
+        </form>
+    </div>
+
+</body>
+<style>
+    .image1 {
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .registration-form {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    label {
+        width: 150px; /* Adjust width to align labels */
+        text-align: left;
+        margin-right: 15px;
+       
+    }
+    
+    .button-group {
+        display: flex;
+        justify-content: center; /* Centers the buttons horizontally */
+        margin-top: 20px;
+    }
+
+
+
+   
+
+</style>
+</html>
