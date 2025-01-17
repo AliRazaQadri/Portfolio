@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: white;
+}
+
+body {
+    background-color: #2B2B2B;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 110px 20px 140px;
+}
+
+.menu {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    align-items: baseline;
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    
+ }
+
+ .lih:hover {
+    background-color: #3B3B3B;
+    box-shadow: 0 10px 16px #A259FF;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ .sbutton {
+    background-color: #A259FF; 
+    padding: 12px 24px; 
+    border: 1px solid black; 
+    border-radius: 15px; 
+    text-align: center
+
+}
+
+.sbutton:hover {
+    
+    color: white;  
+    box-shadow: 0 8px 16px #A259FF; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+
+} 
+
+.written-content {
+    padding: 3px 212px 18px 2px;
+    letter-spacing: 3px;
+    margin: 37px;
+}
+
+    
+.written-content h1 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.written-content p {
+    font-size: 20px;
+    padding: 10px 14px 27px 0px;
+}
+
+.gs-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A259FF; 
+    padding: 12px 24px; 
+    border: 1px solid black; 
+    border-radius: 8px; 
+    text-align: center;
+    color: white;
+}
+
+.gs-btn:hover {
+    color: white;  
+    box-shadow: 0 8px 16px #A259FF; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.c2 {
+    padding: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.imgdiv {
+    padding:10px 31px 31px 19px
+}
+
+.card-content {
+    background-color: #3B3B3B ;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.c2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
